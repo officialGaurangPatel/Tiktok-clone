@@ -4,8 +4,10 @@ import Video from "./Video";
 function App() {
   return (
     <div className="App">
-      <Video />
-      <Video />
+      <div className="app__videos">
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }
